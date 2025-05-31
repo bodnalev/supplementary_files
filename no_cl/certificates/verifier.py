@@ -234,9 +234,9 @@ def recover_from_certificate(file_name):
         slack_vector = certificate['slack vector']
         maximize = certificate['maximize']
 
-    # Minimization changes the sign
-    if not maximize:
-        result = -result
+    # # Minimization changes the sign
+    # if not maximize:
+    #     result = -result
 
     # Get list of base flags and typed flags in format
     base_flags = [flag(size=f[0],
@@ -253,11 +253,12 @@ def recover_from_certificate(file_name):
                                                 if len(tflag[2]) > 1 else [])])
                            for tflag in typed_flags_0[ftype]]
         typed_flags += [same_type_flags]
-    return base_flags, typed_flags, x_matrices, target, positives, e_vector, result, slack_vector
+    return base_flags, typed_flags, x_matrices, target, positives, e_vector, result, slack_vector, maximize
 
 
 # ---------------------------- Main ----------------------------
-# Read and ask for input
+
+# Read certificate and ask for input
 # =================================================
 parser = argparse.ArgumentParser(
     description="A simple flag algebras certificate verifier.",
@@ -290,7 +291,8 @@ partial_verification = args.partial
  positives,
  e_vector,
  result,
- slack_vector) = recover_from_certificate(certificate_path)
+ slack_vector,
+ maximize) = recover_from_certificate(certificate_path)
 
 start, end = 1, len(base_flags)
 if partial_verification:
@@ -333,13 +335,19 @@ for index in range(start - 1, end):
         print("Inner sum:", inner_sum)
         print("Positivity sum:", positivity_sum, '\n')
 
-    print("bound - d(T, F_%d) = Σ<M,X> + Σe*d(f, F_%d) + slack" % (index + 1, index + 1))
-    print(result, '-', obj_fun_density, '=', inner_sum, '+', positivity_sum, '+', slack)
+    if maximize:
+        print("bound - d(T, F_%d) = Σ<M,X> + Σe*d(f, F_%d) + slack" % (index + 1, index + 1))
+        print(result, '-', obj_fun_density, '=', inner_sum, '+', positivity_sum, '+', slack)
+    else:
+        print("d(T, F_%d) - bound = Σ<M,X> + Σe*d(f, F_%d) + slack" % (index + 1, index + 1))
+        print(obj_fun_density, '-', result, '=', inner_sum, '+', positivity_sum, '+', slack)
+
     if slack < 0:
         print("VERIFICATION FAILED: SLACK IS NEGATIVE!")
         exit(1)
 
-    if result - obj_fun_density == inner_sum + positivity_sum + slack:
+    sign = 1 if maximize else -1
+    if sign*(result - obj_fun_density) == inner_sum + positivity_sum + slack:
         print("Equality verified\n")
     else:
         print("VERIFICATION FAILED: EQUALITY DOES NOT HOLD!")
