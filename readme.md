@@ -4,11 +4,11 @@ This repository holds supplementary files for papers involving flag algebra calc
 
 ## Papers
 
-1. `no_c5m/` folder contains calculations for [The Turan density of the tight 5-cycle minus one edge](https://arxiv.org/pdf/2412.21011)
+1. `no_c5m/` folder contains calculations for [The Turan density of the tight 5-cycle minus one edge](https://arxiv.org/pdf/2412.21011),
 2. `hypercube_ind_stats/` folder contains calculations for [Some exact values of the inducibility and statistics constants for
-hypercubes](https://arxiv.org/pdf/2503.03408)
-3. `no_cl/` folder contains calculations for [The Turan density of short tight cycles](https://arxiv.org/pdf/2506.03223)
-4. `graph_ind/` folder contains calculations for an upcoming paper.
+hypercubes](https://arxiv.org/pdf/2503.03408),
+3. `no_cl/` folder contains calculations for [The Turan density of short tight cycles](https://arxiv.org/pdf/2506.03223),
+4. `graph_ind/` folder contains calculations for [Some exact inducibility-type results for graphs via flag algebras](https://arxiv.org/abs/2507.01596).
 
 ## File structure
 
