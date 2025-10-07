@@ -1,0 +1,120 @@
+Text certificate for w12 proving the bound 1/2
+==================================================
+
+Base structures
+(3-dim cube with () type and [] marked points)
+(3-dim cube with () type and [0] marked points)
+(3-dim cube with () type and [0, 1] marked points)
+(3-dim cube with () type and [0, 3] marked points)
+(3-dim cube with () type and [0, 7] marked points)
+(3-dim cube with () type and [0, 1, 2] marked points)
+(3-dim cube with () type and [0, 1, 6] marked points)
+(3-dim cube with () type and [0, 3, 5] marked points)
+(3-dim cube with () type and [0, 1, 2, 3] marked points)
+(3-dim cube with () type and [0, 1, 2, 4] marked points)
+(3-dim cube with () type and [0, 1, 2, 5] marked points)
+(3-dim cube with () type and [0, 1, 2, 7] marked points)
+(3-dim cube with () type and [0, 1, 6, 7] marked points)
+(3-dim cube with () type and [0, 3, 5, 6] marked points)
+(3-dim cube with () type and [0, 1, 2, 3, 4] marked points)
+(3-dim cube with () type and [0, 1, 2, 4, 7] marked points)
+(3-dim cube with () type and [0, 1, 2, 5, 6] marked points)
+(3-dim cube with () type and [0, 1, 2, 3, 4, 5] marked points)
+(3-dim cube with () type and [0, 1, 2, 3, 4, 7] marked points)
+(3-dim cube with () type and [0, 1, 2, 5, 6, 7] marked points)
+(3-dim cube with () type and [0, 1, 2, 3, 4, 5, 6] marked points)
+(3-dim cube with () type and [0, 1, 2, 3, 4, 5, 6, 7] marked points)
+==================================================
+
+Slack values
+249/1024 	 (3-dim cube with () type and [] marked points)
+1379/12288 	 (3-dim cube with () type and [0] marked points)
+2711/6144 	 (3-dim cube with () type and [0, 1] marked points)
+271/1152 	 (3-dim cube with () type and [0, 3] marked points)
+0 	 (3-dim cube with () type and [0, 7] marked points)
+49937/73728 	 (3-dim cube with () type and [0, 1, 2] marked points)
+7463/18432 	 (3-dim cube with () type and [0, 1, 6] marked points)
+8899/24576 	 (3-dim cube with () type and [0, 3, 5] marked points)
+2731/6144 	 (3-dim cube with () type and [0, 1, 2, 3] marked points)
+0 	 (3-dim cube with () type and [0, 1, 2, 4] marked points)
+881/1152 	 (3-dim cube with () type and [0, 1, 2, 5] marked points)
+5723/12288 	 (3-dim cube with () type and [0, 1, 2, 7] marked points)
+545/1536 	 (3-dim cube with () type and [0, 1, 6, 7] marked points)
+497/2048 	 (3-dim cube with () type and [0, 3, 5, 6] marked points)
+49937/73728 	 (3-dim cube with () type and [0, 1, 2, 3, 4] marked points)
+8899/24576 	 (3-dim cube with () type and [0, 1, 2, 4, 7] marked points)
+7463/18432 	 (3-dim cube with () type and [0, 1, 2, 5, 6] marked points)
+2711/6144 	 (3-dim cube with () type and [0, 1, 2, 3, 4, 5] marked points)
+271/1152 	 (3-dim cube with () type and [0, 1, 2, 3, 4, 7] marked points)
+0 	 (3-dim cube with () type and [0, 1, 2, 5, 6, 7] marked points)
+1379/12288 	 (3-dim cube with () type and [0, 1, 2, 3, 4, 5, 6] marked points)
+249/1024 	 (3-dim cube with () type and [0, 1, 2, 3, 4, 5, 6, 7] marked points)
+==================================================
+
+Semi-definite blocks
+--------------------------------------------------
+
+Type (0-dim cube with (0,) type and [] marked points) contributes the following
+3/32 scaled square of 
+1 	 (1-dim cube with (0,) type and [] marked points)
+-1 	 (1-dim cube with (1,) type and [0] marked points)
+
+0 scaled square of 
+1 	 (1-dim cube with (1,) type and [0] marked points)
+--------------------------------------------------
+
+Type (0-dim cube with (0,) type and [0] marked points) contributes the following
+3/32 scaled square of 
+1 	 (1-dim cube with (0,) type and [0] marked points)
+-1 	 (1-dim cube with (0,) type and [0, 1] marked points)
+
+0 scaled square of 
+1 	 (1-dim cube with (0,) type and [0, 1] marked points)
+--------------------------------------------------
+
+Type (1-dim cube with (0, 1) type and [] marked points) contributes the following
+167/1024 scaled square of 
+1 	 (2-dim cube with (0, 1) type and [] marked points)
+-30/167 	 (2-dim cube with (2, 3) type and [0, 1] marked points)
+
+77/384 scaled square of 
+1 	 (2-dim cube with (1, 3) type and [0] marked points)
+-1 	 (2-dim cube with (3, 1) type and [0] marked points)
+
+0 scaled square of 
+1 	 (2-dim cube with (3, 1) type and [0] marked points)
+
+101805/171008 scaled square of 
+1 	 (2-dim cube with (2, 3) type and [0, 1] marked points)
+--------------------------------------------------
+
+Type (1-dim cube with (0, 1) type and [0] marked points) contributes the following
+461/192 scaled square of 
+1 	 (2-dim cube with (0, 1) type and [0] marked points)
+-1 	 (2-dim cube with (1, 3) type and [0, 1, 2] marked points)
+
+653/1024 scaled square of 
+1 	 (2-dim cube with (0, 2) type and [0, 1] marked points)
+-73/653 	 (2-dim cube with (0, 1) type and [0, 3] marked points)
+
+106713/334336 scaled square of 
+1 	 (2-dim cube with (0, 1) type and [0, 3] marked points)
+
+0 scaled square of 
+1 	 (2-dim cube with (1, 3) type and [0, 1, 2] marked points)
+--------------------------------------------------
+
+Type (1-dim cube with (0, 1) type and [0, 1] marked points) contributes the following
+615/1024 scaled square of 
+1 	 (2-dim cube with (0, 1) type and [0, 1] marked points)
+-2/41 	 (2-dim cube with (0, 1) type and [0, 1, 2, 3] marked points)
+
+77/384 scaled square of 
+1 	 (2-dim cube with (0, 1) type and [0, 1, 2] marked points)
+-1 	 (2-dim cube with (1, 0) type and [0, 1, 2] marked points)
+
+0 scaled square of 
+1 	 (2-dim cube with (1, 0) type and [0, 1, 2] marked points)
+
+6787/41984 scaled square of 
+1 	 (2-dim cube with (0, 1) type and [0, 1, 2, 3] marked points)
