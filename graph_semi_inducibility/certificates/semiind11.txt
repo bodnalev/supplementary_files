@@ -1,0 +1,70 @@
+Text certificate for semiind11 proving the bound 1/8
+==================================================
+
+Base structures
+(4 vertex graph with () edges and () type)
+(4 vertex graph with (01) edges and () type)
+(4 vertex graph with (01 03) edges and () type)
+(4 vertex graph with (02 13) edges and () type)
+(4 vertex graph with (01 02 03) edges and () type)
+(4 vertex graph with (01 03 13) edges and () type)
+(4 vertex graph with (01 02 13) edges and () type)
+(4 vertex graph with (01 02 03 13) edges and () type)
+(4 vertex graph with (02 03 12 13) edges and () type)
+(4 vertex graph with (01 02 03 12 13) edges and () type)
+(4 vertex graph with (01 02 03 12 13 23) edges and () type)
+==================================================
+
+Slack values
+0 	 (4 vertex graph with () edges and () type)
+72727/1048576 	 (4 vertex graph with (01) edges and () type)
+65273/2097152 	 (4 vertex graph with (01 03) edges and () type)
+100319/786432 	 (4 vertex graph with (02 13) edges and () type)
+0 	 (4 vertex graph with (01 02 03) edges and () type)
+112675/2097152 	 (4 vertex graph with (01 03 13) edges and () type)
+244601/6291456 	 (4 vertex graph with (01 02 13) edges and () type)
+18381/262144 	 (4 vertex graph with (01 02 03 13) edges and () type)
+0 	 (4 vertex graph with (02 03 12 13) edges and () type)
+290653/3145728 	 (4 vertex graph with (01 02 03 12 13) edges and () type)
+28509/524288 	 (4 vertex graph with (01 02 03 12 13 23) edges and () type)
+==================================================
+
+Semi-definite blocks
+
+--------------------------------------------------
+
+
+Type (2 vertex graph with () edges and (0, 1) type) contributes the following
+1/8 scaled square of 
+1 	 (3 vertex graph with () edges and (0, 1) type)
+-3741/32768 	 (3 vertex graph with (01) edges and (0, 2) type)
+-3741/32768 	 (3 vertex graph with (01) edges and (2, 0) type)
+-1 	 (3 vertex graph with (01 02) edges and (1, 2) type)
+
+
+1848251319/8589934592 scaled square of 
+1 	 (3 vertex graph with (01) edges and (0, 2) type)
+-396398275/616083773 	 (3 vertex graph with (01) edges and (2, 0) type)
+
+
+20363857079859/161502664589312 scaled square of 
+1 	 (3 vertex graph with (01) edges and (2, 0) type)
+
+
+--------------------------------------------------
+
+
+Type (2 vertex graph with (01) edges and (0, 1) type) contributes the following
+139427/524288 scaled square of 
+1 	 (3 vertex graph with (01) edges and (0, 1) type)
+-38928/139427 	 (3 vertex graph with (01 02 12) edges and (0, 1) type)
+
+
+3/8 scaled square of 
+1 	 (3 vertex graph with (01 02) edges and (0, 1) type)
+-1 	 (3 vertex graph with (01 02) edges and (1, 0) type)
+
+
+3647174345/73099902976 scaled square of 
+1 	 (3 vertex graph with (01 02 12) edges and (0, 1) type)
+

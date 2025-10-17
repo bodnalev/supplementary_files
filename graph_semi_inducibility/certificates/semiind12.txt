@@ -1,0 +1,269 @@
+Text certificate for semiind12 proving the bound 1/8
+==================================================
+
+Base structures
+(5 vertex graph with () edges and () type)
+(5 vertex graph with (01) edges and () type)
+(5 vertex graph with (01 04) edges and () type)
+(5 vertex graph with (02 14) edges and () type)
+(5 vertex graph with (01 03 04) edges and () type)
+(5 vertex graph with (01 04 14) edges and () type)
+(5 vertex graph with (01 02 14) edges and () type)
+(5 vertex graph with (02 03 14) edges and () type)
+(5 vertex graph with (01 02 03 04) edges and () type)
+(5 vertex graph with (01 03 04 14) edges and () type)
+(5 vertex graph with (01 02 03 14) edges and () type)
+(5 vertex graph with (03 04 12 14) edges and () type)
+(5 vertex graph with (02 04 12 14) edges and () type)
+(5 vertex graph with (01 02 12 34) edges and () type)
+(5 vertex graph with (01 02 03 04 14) edges and () type)
+(5 vertex graph with (01 03 04 12 14) edges and () type)
+(5 vertex graph with (01 02 04 12 14) edges and () type)
+(5 vertex graph with (02 03 04 12 14) edges and () type)
+(5 vertex graph with (01 03 04 12 34) edges and () type)
+(5 vertex graph with (02 03 12 14 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 14) edges and () type)
+(5 vertex graph with (02 03 04 12 13 14) edges and () type)
+(5 vertex graph with (01 02 03 04 12 34) edges and () type)
+(5 vertex graph with (01 03 04 13 14 34) edges and () type)
+(5 vertex graph with (01 02 04 13 14 34) edges and () type)
+(5 vertex graph with (01 02 03 12 14 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 13 14) edges and () type)
+(5 vertex graph with (01 02 03 04 13 14 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 14 34) edges and () type)
+(5 vertex graph with (02 03 04 12 13 14 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 13 14 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 13 24 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 13 14 24 34) edges and () type)
+(5 vertex graph with (01 02 03 04 12 13 14 23 24 34) edges and () type)
+==================================================
+
+Slack values
+0 	 (5 vertex graph with () edges and () type)
+327051/10485760 	 (5 vertex graph with (01) edges and () type)
+474107/10485760 	 (5 vertex graph with (01 04) edges and () type)
+966583/15728640 	 (5 vertex graph with (02 14) edges and () type)
+17529/1048576 	 (5 vertex graph with (01 03 04) edges and () type)
+124131/10485760 	 (5 vertex graph with (01 04 14) edges and () type)
+598957/6291456 	 (5 vertex graph with (01 02 14) edges and () type)
+732109/15728640 	 (5 vertex graph with (02 03 14) edges and () type)
+0 	 (5 vertex graph with (01 02 03 04) edges and () type)
+1792747/31457280 	 (5 vertex graph with (01 03 04 14) edges and () type)
+12657/262144 	 (5 vertex graph with (01 02 03 14) edges and () type)
+655417/7864320 	 (5 vertex graph with (03 04 12 14) edges and () type)
+252743/7864320 	 (5 vertex graph with (02 04 12 14) edges and () type)
+0 	 (5 vertex graph with (01 02 12 34) edges and () type)
+848771/31457280 	 (5 vertex graph with (01 02 03 04 14) edges and () type)
+455769/5242880 	 (5 vertex graph with (01 03 04 12 14) edges and () type)
+35369/1310720 	 (5 vertex graph with (01 02 04 12 14) edges and () type)
+195157/6291456 	 (5 vertex graph with (02 03 04 12 14) edges and () type)
+48803/1572864 	 (5 vertex graph with (01 03 04 12 34) edges and () type)
+323543/2097152 	 (5 vertex graph with (02 03 12 14 34) edges and () type)
+112049/1966080 	 (5 vertex graph with (01 02 03 04 12 14) edges and () type)
+0 	 (5 vertex graph with (02 03 04 12 13 14) edges and () type)
+168553/5242880 	 (5 vertex graph with (01 02 03 04 12 34) edges and () type)
+0 	 (5 vertex graph with (01 03 04 13 14 34) edges and () type)
+1518769/31457280 	 (5 vertex graph with (01 02 04 13 14 34) edges and () type)
+174757/2097152 	 (5 vertex graph with (01 02 03 12 14 34) edges and () type)
+124127/10485760 	 (5 vertex graph with (01 02 03 04 12 13 14) edges and () type)
+87709/5242880 	 (5 vertex graph with (01 02 03 04 13 14 34) edges and () type)
+2993839/31457280 	 (5 vertex graph with (01 02 03 04 12 14 34) edges and () type)
+61041/1310720 	 (5 vertex graph with (02 03 04 12 13 14 34) edges and () type)
+1422707/31457280 	 (5 vertex graph with (01 02 03 04 12 13 14 34) edges and () type)
+966719/15728640 	 (5 vertex graph with (01 02 03 04 12 13 24 34) edges and () type)
+326823/10485760 	 (5 vertex graph with (01 02 03 04 12 13 14 24 34) edges and () type)
+0 	 (5 vertex graph with (01 02 03 04 12 13 14 23 24 34) edges and () type)
+==================================================
+
+Semi-definite blocks
+
+--------------------------------------------------
+
+
+Type (1 vertex graph with () edges and (0,) type) contributes the following
+1/8 scaled square of 
+1 	 (3 vertex graph with () edges and (0,) type)
+119655/131072 	 (3 vertex graph with (01) edges and (0,) type)
+-119655/131072 	 (3 vertex graph with (01) edges and (2,) type)
+1 	 (3 vertex graph with (01 02) edges and (0,) type)
+-1 	 (3 vertex graph with (01 02) edges and (1,) type)
+-119655/131072 	 (3 vertex graph with (01 02 12) edges and (0,) type)
+
+
+2862550159/137438953472 scaled square of 
+1 	 (3 vertex graph with (01) edges and (0,) type)
+-1 	 (3 vertex graph with (01) edges and (2,) type)
+-1 	 (3 vertex graph with (01 02 12) edges and (0,) type)
+
+
+--------------------------------------------------
+
+
+Type (3 vertex graph with () edges and (0, 1, 2) type) contributes the following
+108005/1048576 scaled square of 
+1 	 (4 vertex graph with (01) edges and (0, 2, 3) type)
+-10187/108005 	 (4 vertex graph with (01) edges and (2, 0, 3) type)
+-2847/108005 	 (4 vertex graph with (01) edges and (2, 3, 0) type)
+-8289/108005 	 (4 vertex graph with (01 03) edges and (1, 2, 3) type)
+-7117/108005 	 (4 vertex graph with (01 03) edges and (1, 3, 2) type)
+-23654/108005 	 (4 vertex graph with (01 03) edges and (2, 1, 3) type)
+
+
+6185131253/56625725440 scaled square of 
+1 	 (4 vertex graph with (01) edges and (2, 0, 3) type)
+-572725037/6185131253 	 (4 vertex graph with (01) edges and (2, 3, 0) type)
+-2751515513/12370262506 	 (4 vertex graph with (01 03) edges and (1, 2, 3) type)
+-356215252/6185131253 	 (4 vertex graph with (01 03) edges and (1, 3, 2) type)
+-164661929/1767180358 	 (4 vertex graph with (01 03) edges and (2, 1, 3) type)
+
+
+165603661501743/1621395047186432 scaled square of 
+1 	 (4 vertex graph with (01) edges and (2, 3, 0) type)
+-17843037923899/220804882002324 	 (4 vertex graph with (01 03) edges and (1, 2, 3) type)
+-18429216348877/73601627334108 	 (4 vertex graph with (01 03) edges and (1, 3, 2) type)
+-304874231795/3806980724178 	 (4 vertex graph with (01 03) edges and (2, 1, 3) type)
+
+
+18371180087146054861/77176899983489630208 scaled square of 
+1 	 (4 vertex graph with (01 03) edges and (1, 2, 3) type)
+-1754840973598021917/18371180087146054861 	 (4 vertex graph with (01 03) edges and (1, 3, 2) type)
+1010755195463326520/18371180087146054861 	 (4 vertex graph with (01 03) edges and (2, 1, 3) type)
+
+
+10467607150864269033756417/38527157062118523243855872 scaled square of 
+1 	 (4 vertex graph with (01 03) edges and (1, 3, 2) type)
+-275838004303480661753923/3489202383621423011252139 	 (4 vertex graph with (01 03) edges and (2, 1, 3) type)
+
+
+143672732760786496941148149809/609782313101369542574453817344 scaled square of 
+1 	 (4 vertex graph with (01 03) edges and (2, 1, 3) type)
+
+
+--------------------------------------------------
+
+
+Type (3 vertex graph with (01) edges and (0, 1, 2) type) contributes the following
+220071/1048576 scaled square of 
+1 	 (4 vertex graph with (01) edges and (0, 1, 2) type)
+-6170/73357 	 (4 vertex graph with (01 03) edges and (0, 1, 2) type)
+-6170/73357 	 (4 vertex graph with (01 03) edges and (1, 0, 2) type)
+-22660/220071 	 (4 vertex graph with (01 02 13) edges and (0, 2, 3) type)
+-22660/220071 	 (4 vertex graph with (01 02 13) edges and (2, 0, 3) type)
+-98557/220071 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 2) type)
+
+
+6790568331/19230097408 scaled square of 
+1 	 (4 vertex graph with (01 03) edges and (0, 1, 2) type)
+-1097768320/2263522777 	 (4 vertex graph with (01 03) edges and (1, 0, 2) type)
+432005615/27162273324 	 (4 vertex graph with (01 02 13) edges and (0, 2, 3) type)
+-2489563333/9054091108 	 (4 vertex graph with (01 02 13) edges and (2, 0, 3) type)
+-1252391221/27162273324 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 2) type)
+
+
+160248104922591/593368914853888 scaled square of 
+1 	 (4 vertex graph with (01 03) edges and (1, 0, 2) type)
+-223991000843539/640992419690364 	 (4 vertex graph with (01 02 13) edges and (0, 2, 3) type)
+-98436914315725/640992419690364 	 (4 vertex graph with (01 02 13) edges and (2, 0, 3) type)
+-1252391221/13989053484 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 2) type)
+
+
+236222448612630224089/336064633734621560832 scaled square of 
+1 	 (4 vertex graph with (01 02 13) edges and (0, 2, 3) type)
+-80309198046051522329/236222448612630224089 	 (4 vertex graph with (01 02 13) edges and (2, 0, 3) type)
+-17108030703951858544/236222448612630224089 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 2) type)
+
+
+7218027724725237543124355/11610805794208000774422528 scaled square of 
+1 	 (4 vertex graph with (01 02 13) edges and (2, 0, 3) type)
+-23335412125379/212666204587660 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 2) type)
+
+
+114332111118688788871/334495017212565258240 scaled square of 
+1 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 2) type)
+
+
+--------------------------------------------------
+
+
+Type (3 vertex graph with (01 02) edges and (0, 1, 2) type) contributes the following
+6519/16384 scaled square of 
+1 	 (4 vertex graph with (01 03) edges and (0, 1, 3) type)
+-34817/417216 	 (4 vertex graph with (01 02 13) edges and (0, 1, 2) type)
+-34817/417216 	 (4 vertex graph with (01 02 13) edges and (0, 2, 1) type)
+-1087/52152 	 (4 vertex graph with (01 02 03 13) edges and (0, 1, 2) type)
+-1087/52152 	 (4 vertex graph with (01 02 03 13) edges and (0, 2, 1) type)
+-49489/208608 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 3) type)
+
+
+321606153215/437482684416 scaled square of 
+1 	 (4 vertex graph with (01 02 13) edges and (0, 1, 2) type)
+-99052713217/321606153215 	 (4 vertex graph with (01 02 13) edges and (0, 2, 1) type)
+2978635208/321606153215 	 (4 vertex graph with (01 02 03 13) edges and (0, 1, 2) type)
+-41977223224/321606153215 	 (4 vertex graph with (01 02 03 13) edges and (0, 2, 1) type)
+-12889801186/321606153215 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 3) type)
+
+
+28048743873107937/42153561714196480 scaled square of 
+1 	 (4 vertex graph with (01 02 13) edges and (0, 2, 1) type)
+-3956311414435783/28048743873107937 	 (4 vertex graph with (01 02 03 13) edges and (0, 1, 2) type)
+-958739131102721/28048743873107937 	 (4 vertex graph with (01 02 03 13) edges and (0, 2, 1) type)
+-6444900593/111276719999 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 3) type)
+
+
+626846004291729559517/1838202478468001759232 scaled square of 
+1 	 (4 vertex graph with (01 02 03 13) edges and (0, 1, 2) type)
+-632293370793507874111/1253692008583459119034 	 (4 vertex graph with (01 02 03 13) edges and (0, 2, 1) type)
+-732345999777206445771/10029536068667672952272 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 3) type)
+
+
+41782575039313305482429955/164323918949051153650024448 scaled square of 
+1 	 (4 vertex graph with (01 02 03 13) edges and (0, 2, 1) type)
+-2905408567608917/19722010379625768 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 3) type)
+
+
+1829674168827958976293/10340013377913234653184 scaled square of 
+1 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 3) type)
+
+
+--------------------------------------------------
+
+
+Type (3 vertex graph with (01 02 12) edges and (0, 1, 2) type) contributes the following
+128105/524288 scaled square of 
+1 	 (4 vertex graph with (01 02 03 13) edges and (0, 1, 3) type)
+-19627/256210 	 (4 vertex graph with (01 02 03 13) edges and (1, 0, 3) type)
+1878/25621 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 0) type)
+-4643/128105 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 1, 2) type)
+-5889/256210 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 1) type)
+-23801/256210 	 (4 vertex graph with (01 02 03 12 13) edges and (2, 0, 1) type)
+
+
+75098602441/268655656960 scaled square of 
+1 	 (4 vertex graph with (01 02 03 13) edges and (1, 0, 3) type)
+-4660038610/75098602441 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 0) type)
+-1691077012/75098602441 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 1, 2) type)
+-7083982983/75098602441 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 1) type)
+-1975962917/75098602441 	 (4 vertex graph with (01 02 03 12 13) edges and (2, 0, 1) type)
+
+
+2381609596313745/9843324019146752 scaled square of 
+1 	 (4 vertex graph with (01 02 03 13) edges and (1, 3, 0) type)
+-117804224805871/1270191784700664 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 1, 2) type)
+-756271553/26748763524 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 1) type)
+-40152564295699/1270191784700664 	 (4 vertex graph with (01 02 03 12 13) edges and (2, 0, 1) type)
+
+
+44601313935934090843/443964206944761151488 scaled square of 
+1 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 1, 2) type)
+-5036864722209744698/44601313935934090843 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 1) type)
+-1923542904918177833/44601313935934090843 	 (4 vertex graph with (01 02 03 12 13) edges and (2, 0, 1) type)
+
+
+620801559555649164938285/5845983420210753154973696 scaled square of 
+1 	 (4 vertex graph with (01 02 03 12 13) edges and (0, 2, 1) type)
+-553474080725783646202921/4966412476445193319506280 	 (4 vertex graph with (01 02 03 12 13) edges and (2, 0, 1) type)
+
+
+515328124280222695152940881813/5207660928900995030194617057280 scaled square of 
+1 	 (4 vertex graph with (01 02 03 12 13) edges and (2, 0, 1) type)
+

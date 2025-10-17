@@ -1,0 +1,64 @@
+Text certificate for semiind1 proving the bound 4/27
+==================================================
+
+Base structures
+(4 vertex graph with () edges and () type)
+(4 vertex graph with (01) edges and () type)
+(4 vertex graph with (01 03) edges and () type)
+(4 vertex graph with (02 13) edges and () type)
+(4 vertex graph with (01 02 03) edges and () type)
+(4 vertex graph with (01 03 13) edges and () type)
+(4 vertex graph with (01 02 13) edges and () type)
+(4 vertex graph with (01 02 03 13) edges and () type)
+(4 vertex graph with (02 03 12 13) edges and () type)
+(4 vertex graph with (01 02 03 12 13) edges and () type)
+(4 vertex graph with (01 02 03 12 13 23) edges and () type)
+==================================================
+
+Slack values
+0 	 (4 vertex graph with () edges and () type)
+0 	 (4 vertex graph with (01) edges and () type)
+0 	 (4 vertex graph with (01 03) edges and () type)
+0 	 (4 vertex graph with (02 13) edges and () type)
+0 	 (4 vertex graph with (01 02 03) edges and () type)
+0 	 (4 vertex graph with (01 03 13) edges and () type)
+0 	 (4 vertex graph with (01 02 13) edges and () type)
+0 	 (4 vertex graph with (01 02 03 13) edges and () type)
+0 	 (4 vertex graph with (02 03 12 13) edges and () type)
+0 	 (4 vertex graph with (01 02 03 12 13) edges and () type)
+0 	 (4 vertex graph with (01 02 03 12 13 23) edges and () type)
+==================================================
+
+Semi-definite blocks
+
+--------------------------------------------------
+
+
+Type (2 vertex graph with () edges and (0, 1) type) contributes the following
+16/27 scaled square of 
+-1/2 	 (3 vertex graph with () edges and (0, 1) type)
+1/4 	 (3 vertex graph with (01) edges and (0, 2) type)
+1/4 	 (3 vertex graph with (01) edges and (2, 0) type)
+1 	 (3 vertex graph with (01 02) edges and (1, 2) type)
+
+
+1/3 scaled square of 
+1 	 (3 vertex graph with (01) edges and (0, 2) type)
+-1 	 (3 vertex graph with (01) edges and (2, 0) type)
+
+
+--------------------------------------------------
+
+
+Type (2 vertex graph with (01) edges and (0, 1) type) contributes the following
+4/27 scaled square of 
+-1/2 	 (3 vertex graph with (01) edges and (0, 1) type)
+1/4 	 (3 vertex graph with (01 02) edges and (0, 1) type)
+1/4 	 (3 vertex graph with (01 02) edges and (1, 0) type)
+1 	 (3 vertex graph with (01 02 12) edges and (0, 1) type)
+
+
+1/12 scaled square of 
+1 	 (3 vertex graph with (01 02) edges and (0, 1) type)
+-1 	 (3 vertex graph with (01 02) edges and (1, 0) type)
+
