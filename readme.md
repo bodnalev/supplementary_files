@@ -8,7 +8,8 @@ This repository holds supplementary files for papers involving flag algebra calc
 2. `hypercube_ind_stats/` folder contains calculations for [Some exact values of the inducibility and statistics constants for
 hypercubes](https://arxiv.org/pdf/2503.03408),
 3. `no_cl/` folder contains calculations for [The Turan density of short tight cycles](https://arxiv.org/pdf/2506.03223),
-4. `graph_inducibility/` folder contains calculations for [Some exact inducibility-type results for graphs via flag algebras](https://arxiv.org/abs/2507.01596).
+4. `graph_inducibility/` folder contains calculations for [Some exact inducibility-type results for graphs via flag algebras](https://arxiv.org/abs/2507.01596),
+5. `graph_semi_inducibility/` folder contains calculations for [Semi-inducibility of 4-vertex graphs](https://arxiv.org/abs/2510.24336).
 
 ## File structure
 
